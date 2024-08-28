@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: white;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#container h1 {
+    width: 100%;
+}
+
+#username {
+    width: calc(100% - 10px);
+
+}
+
+#messages {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#messageInput {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #218838;
+}

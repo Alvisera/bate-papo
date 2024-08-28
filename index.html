@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Simples</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Seja Bem-Vindo ao Bate-Papo!</h1>
+        <div id="login">
+            <input type="text" id="username" placeholder="Escolha seu nome de usuário">
+            <button onclick="enterChatRoom()">Entrar</button>
+        </div>
+        <div id="chat" style="display:none;">
+            <div id="messages"></div>
+            <input type="text" id="messageInput" placeholder="Digite sua mensagem">
+            <button onclick="sendMessage()">Enviar</button>
+            <button onclick="leaveChat()">Sair</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
