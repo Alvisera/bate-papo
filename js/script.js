@@ -7,7 +7,6 @@ function enterChatRoom() {
         document.getElementById('login').style.display = 'none';
         document.getElementById('chat').style.display = 'block';
 
-        // Conectar ao servidor WebSocket
         socket = new WebSocket('ws://localhost:8080');
 
         socket.onopen = () => {
